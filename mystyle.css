@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    height: 100vh;
+}
+.home .content{
+    padding-top: 70px;
+    
+}
+.home img,
+.home h4,
+.home p {
+    color: #ccc;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 15px 10px;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-1 {
+    background-color: #8e7754;
+    color: white;
+    margin-right: 8px;
+}
+
+.btn-2 {
+    background-color: #ffffff00;
+    border: 1px solid white;
+    color: white;
+}
+
+.nav-bar img {
+    float: left;
+}
+
+.nav-bar ul {
+    float: right;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.nav-bar img {
+    width: 200px;
+    margin: 15px;
+}
+
+.clear-fex {
+    clear: both;
+}
+
+.nav-bar li {
+    font-family: 'Alegreya', serif;
+}
+
+.about {
+    text-align: center;
+    padding: 0 112px;
+    margin: 20px auto
+}
+
+p,
+span {
+    color: #686868;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.about .who-we-are-img {
+    float: left;
+    width: 46%;
+}
+
+.about .who-we-are-img-content {
+    padding: 20px;
+    text-align: center;
+    float: left;
+    width: 40%;
+    margin-left: 30px;
+}
+
+h2,
+h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.about .who-we-are-img img {
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.about .description {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.our-location {
+    background-color: aqua;
+    padding: 30px 50px 0;
+    margin: auto;
+    text-align: center;
+}
+
+.our-location .img-location {
+    width: 43%;
+    float: right;
+    padding: 20px;
+}
+
+.our-location .img-location img {
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.our-location .location-content {
+    width: 45%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+}
+
+.our-location {
+    background-color: #f8f8f8;
+}
+
+.our-location .second-p {
+    margin-top: 10px;
+}
+
+.our-baking,
+.our-baking p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.types .bakery-types {
+    width: 33.3%;
+    float: left;
+}
+
+.our-baking h4 {
+    margin-top: 15px;
+    margin-bottom: 9px;
+    font-family: 'Alegreya', serif;
+}
+
+.types .bakery-types img {
+    width: 85%;
+}
+
+.our-baking {
+    padding: 0 112px;
+}
+
+.our-baking p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.our-location.maps .location-content {
+    width: 50%;
+}
+
+.our-location.maps .location-content .line {
+    text-align: left;
+}
+
+.our-location .location-details {
+    margin: 20px 0;
+    text-align: left;
+    display: block;
+}
+
+.maps span {
+    vertical-align: top;
+}
+
+.maps .line img {
+    width: 6%;
+}
+
+.maps .line {
+    margin: 20px 0;
+}
+
+.last-details {
+    background: #403d38;
+    padding: 30px 112px;
+}
+
+.last-details .section {
+    width: 21%;
+    float: left;
+    padding: 0 2%;
+    text-align: left;
+}
+
+.last-details {
+    font-size: 18px;
+    color: #969696;
+}
+
+.last-details h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+
+.last-details .bottom-line {
+    width: 100%;
+    height: 1px;
+    background-color: #333030c2;
+    margin: 4px;
+}
+
+.last-details .line img {
+    width: 7%;
+}
+
+.last-details span {
+    font-family: 'Alegreya', serif;
+}
+
+.last-details .line img {
+    width: 12%;
+}
+
+.last-details .line span {
+    vertical-align: bottom;
+}
+
+.last-details .details-description {
+    float: left;
+    width: 79%;
+}
+
+.last-details .icon-details {
+    float: left;
+    width: 11%;
+}
+
+.last-details .icon-details img {
+    width: 100%;
+}
+
+.last-details .section-4 .bottom-line {
+    float: left;
+    margin: 8px;
+}
+
+.footer {
+    background-color: #353330;
+    text-align: center;
+    margin: auto;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.footer img {
+    width: 256px;
+    margin-bottom: 10px;
+}
+
+.footer .icon {
+    width: 3%;
+    margin: 14px 0;
+}
